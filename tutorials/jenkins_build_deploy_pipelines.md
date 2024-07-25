@@ -143,8 +143,8 @@ pipeline {
         IMAGE_BASE_NAME = "netflix-app"
         
         DOCKER_CREDS = credentials('dockerhub')
-        DOCKER_USERNAME = ${DOCKER_CREDS_USR}  // The _USR suffix added to access the username value 
-        DOCKER_PASS = ${DOCKER_CREDS_PSW}      // The _PSW suffix added to access the password value
+        DOCKER_USERNAME = "${DOCKER_CREDS_USR}"  // The _USR suffix added to access the username value 
+        DOCKER_PASS = "${DOCKER_CREDS_PSW}"      // The _PSW suffix added to access the password value
     } 
 
     stages {

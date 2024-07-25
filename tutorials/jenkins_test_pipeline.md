@@ -111,11 +111,11 @@ Automated testing is a very broad topic. In this section we will lightly cover 2
 ESList analyzes your code **without actually running it**.
 It checks for syntax errors, enforces a coding standard, and can make suggestions about how the code could be refactored.
 
-Linting your NetflixFrontend code is simply done by the `npm run lint` command. 
+Linting your NetflixFrontend code is simply done by executing the `npm run lint` command from the root directory of the repo. 
 
 - Integrate the linting check in `test.Jenkinsfile` under the **Lint** stage.
-- Note that the `npm` command is required to be available in the Jenkins runtime, edit the `jenkins-agent.Dockerfile` accordingly in order to install it on the agent image, and re-run the docker compose project (with the `--build` flag so the compose will build the new image).
-- The lint results would be printed into `lintingResult.xml` file, use the [junit plugin](https://plugins.jenkins.io/junit/) to publish the results in your Jenkins dashboard:
+- Note that the `npm` command is required to be available in the Jenkins runtime, either install it on-the-fly using `apt`, or edit the `jenkins-agent.Dockerfile` accordingly in order to install it on the agent image from beforehand. 
+- The lint results would be printed into the `lintingResult.xml` file, use the [junit plugin](https://plugins.jenkins.io/junit/) to publish the results in your Jenkins dashboard:
 
 ```diff
 stage('Lint') {
@@ -132,17 +132,10 @@ stage('Lint') {
 
 ### Security vulnerabilities scanning 
 
-Integrate `snyk` image vulnerability scanning into your pipline.
+If haven't done yet, learn how to use the [Docker Scout](https://docs.docker.com/scout/quickstart/) tool. 
 
-- Create a **Secret text** credentials containing the Snyk API token.
-- Use the [`withCredentials` step](https://www.jenkins.io/doc/pipeline/steps/credentials-binding/), read your Snyk API secret as `SNYK_TOKEN` env var, and perform the security testing using simple `sh` step and `synk` cli.
-- Sometimes, Snyk alerts you for a vulnerability that has no update available, or that you do not believe to be currently exploitable in your application. You can ignore a specific vulnerability in a project using the [`snyk ignore`](https://docs.snyk.io/snyk-cli/test-for-vulnerabilities/ignore-vulnerabilities-using-snyk-cli) command:
-
-```text
-snyk ignore --id=<ISSUE_ID>
-```
-
-- Use [Snyk Jenkins plugin](https://docs.snyk.io/integrations/ci-cd-integrations/jenkins-integration-overview) or use the [Jenkins HTML publisher](https://plugins.jenkins.io/htmlpublisher/) plugin together with [snyk-to-html](https://github.com/snyk/snyk-to-html) project to generate a UI friendly Snyk reports in your pipeline page.
-
+Complete the `Security vulnerabilities scanning` stage to [integrate Docker Scout with Jenkins](https://docs.docker.com/scout/integrations/ci/jenkins/).
 
 [git_envbased]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/git_envbased.png
+[NetflixFrontend]: https://github.com/exit-zero-academy/NetflixFrontend
+

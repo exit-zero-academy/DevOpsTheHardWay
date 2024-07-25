@@ -323,28 +323,14 @@ While there are several [instructions available](https://docs.docker.com/engine/
 
 ## Docker image vulnerabilities
 
-Sometimes, docker images can contain security vulnerabilities, either by using vulnerable base image, or install insecure package.
+Docker images contain security vulnerabilities, either by using vulnerable base image, or install insecure package.
 Docker image security scanning is a process of identifying known security vulnerabilities in the packages listed in your Docker image.
 This gives you the opportunity to find vulnerabilities in container images and fix them before deploying image to production environments.
 
-The [Snyk](https://docs.snyk.io/products/snyk-container/snyk-cli-for-container-security) Container command line interface helps you find and fix vulnerabilities in container images on your local machine.
+[Docker Scout](https://docs.docker.com/scout/quickstart/) is a solution for analyzing your images. The free tier allows you to scan up to 3 repositories. 
 
-1. You must first to [Sign up for Snyk account](https://docs.snyk.io/getting-started/create-a-snyk-account).
-2. Install [Snyk CLI](https://docs.snyk.io/snyk-cli/install-the-snyk-cli).
-3. Get your API token from your [Account Settings](https://app.snyk.io/account) page.
-4. Use `sync auth` to authenticate in Snyk API. Alternatively, set the `SNYK_TOKEN` environment variable with the API token as a value.
-5. You can easily [scan docker images](https://docs.snyk.io/products/snyk-container) for vulnerabilities:
+Follow the [Docker Scout Quickstart](https://docs.docker.com/scout/quickstart/) to familiarize yourself with this tool.  
 
-```shell
-# will scan ubuntu docker image from DockerHub
-snyk container test ubuntu 
-
-# will alarm for `high` issues and above 
-snyk container test ubuntu --severity-threshold=high
- 
-# will scan a local image my-image:latest. The --file=Dockerfile can add more context to the security scanning. 
-snyk container test my-image:latest --file=Dockerfile
-```
 
 ## Multi-stage builds 
 
