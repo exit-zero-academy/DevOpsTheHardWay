@@ -1,0 +1,39 @@
+env:
+  - name: ELASTIC_URL
+    value: quickstart-es-http   # TODO change according to your elastic service address
+  - name: ES_USER
+    value: elastic
+  - name: ES_PASSWORD
+    valueFrom:
+      secretKeyRef:
+        name: quickstart-es-elastic-user
+        key: elastic
+
+config:
+  outputs: |
+    [OUTPUT]
+        Name es
+        Match kube.*
+        Host ${ELASTIC_URL}
+        HTTP_User ${ES_USER}
+        HTTP_Passwd ${ES_PASSWORD}
+        Suppress_Type_Name On
+        Logstash_Format On
+        Retry_Limit False
+        tls On
+        tls.verify Off
+        Replace_Dots On
+
+    [OUTPUT]
+        Name es
+        Match host.*
+        Host ${ELASTIC_URL}
+        HTTP_User ${ES_USER}
+        HTTP_Passwd ${ES_PASSWORD}
+        Suppress_Type_Name On
+        Logstash_Format On
+        Logstash_Prefix node
+        Retry_Limit False
+        tls On
+        tls.verify Off
+        Replace_Dots On

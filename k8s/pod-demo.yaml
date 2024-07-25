@@ -1,0 +1,13 @@
+# k8s/pod-demo.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    project: ABC
+    env: prod
+spec:
+  containers:
+  - name: server
+    image: nginx:1.26.0

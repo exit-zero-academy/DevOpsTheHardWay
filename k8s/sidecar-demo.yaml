@@ -1,0 +1,38 @@
+# k8s/sidecar-demo.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+        labels:
+          app: nginx
+    spec:
+      containers:
+        - name: webserver
+          image: nginx
+          volumeMounts:
+          - name: html
+            mountPath: /usr/share/nginx/html
+        - name: helper
+          image: debian
+          volumeMounts:
+          - name: html
+            mountPath: /html
+          command: ["/bin/sh", "-c"]
+          args:
+            - while true; do
+                date >> /html/index.html;
+                sleep 1;
+              done
+      volumes:
+        - name: html
+          emptyDir: { }

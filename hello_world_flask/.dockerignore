@@ -1,0 +1,13 @@
+__pycache__/
+venv/
+.venv/
+.git/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+requirements.txt
+

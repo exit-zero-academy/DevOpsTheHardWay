@@ -1,0 +1,45 @@
+# k8s/taint-toleration-demo.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  tolerations:
+    - key: "gpu"
+      operator: "Equal"
+      value: "true"
+      effect: "NoSchedule"
+  nodeSelector:
+    disk: ssd
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+        labels:
+          app: nginx
+    spec:
+      containers:
+      - name: server
+        image: nginx:1.26.0
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 200m
+            memory: 200Mi
+        livenessProbe:
+          initialDelaySeconds: 10
+          httpGet:
+            path: "/"
+            port: 80
+        readinessProbe:
+          initialDelaySeconds: 10
+          httpGet:
+            path: "/"
+            port: 80

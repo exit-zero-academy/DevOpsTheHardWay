@@ -1,0 +1,16 @@
+# k8s/configmap-demo.yaml
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-conf
+data:
+  # this known as "file-like" keys. In YAML, the "|" coming after the key allows to have multi-line values
+  default.conf: |
+    server {
+     listen 80;
+     server_name  localhost;
+     location / {
+       proxy_pass http://netflix-movie-catalog-service:8080;
+      }
+    }

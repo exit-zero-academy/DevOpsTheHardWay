@@ -1,0 +1,19 @@
+Package: containerd.io
+Architecture: amd64
+Version: 1.2.13-2
+Priority: optional
+Section: devel
+Maintainer: Containerd team <help@containerd.io>
+Installed-Size: 96972
+Provides: containerd, runc
+Depends: libc6 (>= 2.14), libseccomp2 (>= 2.4.1)
+Conflicts: containerd, runc
+Replaces: containerd, runc
+Filename: dists/focal/pool/stable/amd64/containerd.io_1.2.13-2_amd64.deb
+Size: 21420058
+MD5sum: 82a480e21a52caba100623cf534532e2
+SHA1: 18bce1e3a4a1cafeb5ef8eafa6766225be195125
+SHA256: 96ad73534f896e1d88acdb1f4d6894d94f4f91fc33de8183b571932939a4f740
+SHA512: ab86f4e14362b2eef2173b08c71e5d553a3c9621c2732b0c6261b290bdd0804d7dc80625d73fd6de0c43c0fa915d4482e4fb35a5275403c70b293da18ea86c23
+Homepage: https://containerd.io
+Description: An open and reliable container runtime

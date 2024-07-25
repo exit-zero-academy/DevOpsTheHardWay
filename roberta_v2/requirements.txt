@@ -1,0 +1,6 @@
+flask
+pyyaml
+loguru
+transformers==4.31.0
+torch==2.0.1
+textstat==0.7.3
