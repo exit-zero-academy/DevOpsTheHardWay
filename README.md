@@ -748,7 +748,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 ## Contact Us
 
-For organizations seeking innovative DevOps training and skill enhancement, feel free to reach out to us.
+Looking for innovative DevOps training and skill enhancement, reach out to us.
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
