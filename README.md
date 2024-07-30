@@ -244,10 +244,10 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 <tr>
  <td>20</td>
  <td>Cloud (AWS)</td>
- <td>AWS Virtual Private Cloud (VPC)</td>
+ <td><a href="tutorials/aws_vpc.md">AWS Virtual Private Cloud (VPC)</a></td>
  <td align="center"></td>
- <td align="center"></td>
- <td align="center"></td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/aws_vpc.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
+ <td align="center"><a href="tutorials/aws_vpc.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
  <td align="center"></td>
 </tr>
 
@@ -264,7 +264,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 <tr>
  <td>22</td>
  <td>Cloud (AWS)</td>
- <td>AWS DNS service - Route53</td>
+ <td><a href="tutorials/aws_route53.md">AWS DNS service - Route53</a></td>
  <td align="center"></td>
  <td align="center"></td>
  <td align="center"></td>
@@ -274,7 +274,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 <tr>
  <td>:round_pushpin:</td>
  <td><b>Milestone</b></td>
- <td>Simple app deployment</td>
+ <td><a href="tutorials/milestone_simple_app_deployment.md">Simple app deployment</a></td>
  <td align="center"></td>
  <td align="center"></td>
  <td align="center"></td>
@@ -306,7 +306,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
  <td>Version control</td>
  <td><a href="tutorials/git_remotes.md">Git remotes</a></td>
  <td align="center"></td>
- <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/git_remotes.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
+ <td align="center"></td>
  <td align="center"><a href="tutorials/git_remotes.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
  <td align="center"><a href="https://github.com/exit-zero-academy/GitProject">Git project</a></td>
 </tr>
