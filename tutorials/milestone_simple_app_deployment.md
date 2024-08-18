@@ -1,4 +1,4 @@
-# Milestone: Simple app deployment
+# :round_pushpin: Milestone: Simple app deployment
 
 For this milestone, you will manually deploy the [NetflixMovieCatalog][NetflixMovieCatalog] service on an AWS virtual machine.
 

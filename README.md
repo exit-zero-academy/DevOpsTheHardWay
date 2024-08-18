@@ -22,6 +22,17 @@ Here you'll get real-world experience, work on outstanding projects as if you we
 [Studying Guide](#studying-guide) •
 [Contact](#contact-us) 
 
+## Sharing The Success
+
+![Community Engagement](https://img.shields.io/badge/Community_Engagement-123-blue) 
+![Total Projects Achieved](https://img.shields.io/badge/Projects_Completed-45-green) 
+![Course Alumni](https://img.shields.io/badge/Course_Alumni-10-yellow) 
+
+Meet the champions of our course! 👏
+Students who have recently completed another project in the course:
+
+![][]
+
 ## Getting Started
 
 First, please complete the course [Onboarding tutorial](tutorials/onboarding.md). 
@@ -97,7 +108,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/linux_processes.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/linux_processes.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
  <td align="center"><a href="tutorials/linux_processes.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
- <td align="center"><a href="https://github.com/exit-zero-academy/LinuxProject">Linux project</a></td>
+ <td align="center"><a href="https://github.com/exit-zero-academy/LinuxMiniProject">Linux mini project</a></td>
 </tr>
 
 <tr>
@@ -322,19 +333,9 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>27</td>
- <td>CI/CD</td>
- <td>GitHub actions</td>
- <td align="center"></td>
- <td align="center"></td>
- <td align="center"></td>
- <td align="center"></td>
-</tr>
-
-<tr>
  <td>:round_pushpin:</td>
  <td><b>Milestone</b></td>
- <td>Simple CI/CD pipeline</td>
+ <td><a href="tutorials/milestone_github_actions_ci_cd.md">GitHub Actions and the simple CI/CD pipeline</a></td>
  <td align="center"></td>
  <td align="center"></td>
  <td align="center"></td>
@@ -344,7 +345,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>28</td>
+ <td>27</td>
  <td>Webservers</td>
  <td><a href="tutorials/webservers_nginx.md">Nginx webserver</a></td>
  <td align="center"></td>
@@ -354,7 +355,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>29</td>
+ <td>28</td>
  <td>IaC</td>
  <td><a href="tutorials/IaC_ansible.md">Ansible brief</a></td>
  <td align="center"></td>
@@ -378,7 +379,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>30</td>
+ <td>29</td>
  <td>Monitoring</td>
  <td>Grafana and Prometheus</td>
  <td align="center"></td>
@@ -388,7 +389,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>31</td>
+ <td>30</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_intro.md">Intro to containers</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/docker_intro.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -398,7 +399,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>32</td>
+ <td>31</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_containers.md">Docker containers</a></td>
  <td align="center"></td>
@@ -408,7 +409,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>33</td>
+ <td>32</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_images.md">Docker images</a></td>
  <td align="center"></td>
@@ -418,7 +419,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>34</td>
+ <td>33</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_networking.md">Docker networks</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/docker_networking.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -428,7 +429,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>35</td>
+ <td>34</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_volumes.md">Docker volumes</a></td>
  <td align="center"></td>
@@ -438,7 +439,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>36</td>
+ <td>35</td>
  <td>Containers</td>
  <td><a href="tutorials/docker_compose.md">Docker compose</a></td>
  <td align="center"></td>
@@ -458,7 +459,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>37</td>
+ <td>36</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_ec2.md">Elastic Cloud Compute (EC2) and Elastic Block Storage (EBS)</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_ec2.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -468,7 +469,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>38</td>
+ <td>37</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_s3.md">Simple Storage Service (S3)</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_s3.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -478,7 +479,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>39</td>
+ <td>38</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_dynamodb.md">DynamoDB</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_dynamodb.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -488,7 +489,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>40</td>
+ <td>39</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_iam.md">Identity and Access Management (IAM)</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_iam.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -498,7 +499,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>41</td>
+ <td>40</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_elb_asg.md">Elastic Load Balancer (ELB) and Auto Scaling Group (ASG)</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_elb_asg.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -518,7 +519,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>42</td>
+ <td>41</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_lambda.md">Lambda functions</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_lambda.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -528,7 +529,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>43</td>
+ <td>42</td>
  <td>Cloud (AWS)</td>
  <td><a href="tutorials/aws_sqs_sns.md">Simple Queue Service (SQS) and Simple Notifications Service (SNS)</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_sqs_sns.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -538,7 +539,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>44</td>
+ <td>43</td>
  <td>IaC</td>
  <td><a href="tutorials/IaC_terraform_basics.md">Terraform basics</a></td>
  <td align="center"></td>
@@ -548,7 +549,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>45</td>
+ <td>44</td>
  <td>IaC</td>
  <td><a href="tutorials/IaC_terraform_variables.md">Terraform variables</a></td>
  <td align="center"></td>
@@ -558,7 +559,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>46</td>
+ <td>45</td>
  <td>IaC</td>
  <td><a href="tutorials/IaC_terraform_modules.md">Terraform modules</a></td>
  <td align="center"></td>
@@ -578,7 +579,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>47</td>
+ <td>46</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_setup_and_intro.md">Kubernetes setup and intro</a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/microservices_intro.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
@@ -589,7 +590,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>48</td>
+ <td>47</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_core_objects.md">Kubernetes core objects</a></td>
  <td align="center"></td>
@@ -599,7 +600,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>49</td>
+ <td>48</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_argocd.md">ArgoCD</a></td>
  <td align="center"></td>
@@ -609,7 +610,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>50</td>
+ <td>49</td>
  <td>CI/CD</td>
  <td><a href="tutorials/jenkins_setup_and_intro.md">Jenkins setup and intro</a></td>
  <td align="center"></td>
@@ -619,7 +620,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>51</td>
+ <td>50</td>
  <td>CI/CD</td>
  <td><a href="tutorials/jenkins_build_deploy_pipelines.md">Build and deploy pipelines</a></td>
  <td align="center"></td>
@@ -629,7 +630,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>52</td>
+ <td>51</td>
  <td>CI/CD</td>
  <td><a href="tutorials/jenkins_test_pipeline.md">Test pipeline</a></td>
  <td align="center"></td>
@@ -639,7 +640,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>53</td>
+ <td>52</td>
  <td>CI/CD</td>
  <td><a href="tutorials/artifacts_nexus.md">Nexus artifacts management</a></td>
  <td align="center"></td>
@@ -660,7 +661,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>54</td>
+ <td>53</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_pod_design.md">Kubernetes pod design</a></td>
  <td align="center"></td>
@@ -670,7 +671,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>55</td>
+ <td>54</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_statefulset_and_storage.md">Kubernetes Statefulset and storage</a></td>
  <td align="center"></td>
@@ -681,7 +682,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>56</td>
+ <td>55</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_helm.md">Helm</a></td>
  <td align="center"></td>
@@ -692,7 +693,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>57</td>
+ <td>56</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_observability.md">Kubernetes cluster observability</a></td>
  <td align="center"></td>
@@ -703,7 +704,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>58</td>
+ <td>57</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_eks.md">AWS Elastic Kubernetes Service (EKS)</a></td>
  <td align="center"></td>
@@ -714,7 +715,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 
 
 <tr>
- <td>59</td>
+ <td>58</td>
  <td>Orchestration (K8S)</td>
  <td><a href="tutorials/k8s_networking.md">Kubernetes networking</a></td>
  <td align="center"></td>
@@ -724,7 +725,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>60</td>
+ <td>59</td>
  <td>Cloud (AWS)</td>
  <td>Relational Databases (RDS)</td>
  <td align="center"></td>
@@ -734,7 +735,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </tr>
 
 <tr>
- <td>61</td>
+ <td>60</td>
  <td>Monitoring</td>
  <td>Elasticsearch and Kibana</td>
  <td align="center"></td>

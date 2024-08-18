@@ -96,7 +96,7 @@ The PATH variable on `elvis`' machine looks like:
 
 ```console
 [elvis@station elvis]$ echo $PATH 
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+/home/elvis/custom:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 ```
 
 `elvis` created a custom program called `ls`.

@@ -187,7 +187,7 @@ The "Welcome to nginx!" page should be served by default.
 
 How does it work? 
 
-The `location` block sets configuration depending on a request URI (URI is basically like URL, but without the protocol. E.g. URL: http://google.com, URI: google.com).
+The `location` block sets configuration depending on a request [URI](https://developer.mozilla.org/en-US/docs/Glossary/URI).
 In out case, the `location /` block defines that every request URI that matches the `/` prefix, will be served according to the definitions of this block - 
 all content is being served from `/usr/share/nginx/html`, and if otherwise not specified, the default served pages are `index.html` or `index.htm`.
 
@@ -390,10 +390,10 @@ If its value does not match any server name, or the request does not contain thi
    server {
    ...
    
-   location / {
-     include uwsgi_params;
-     uwsgi_pass http://backend;
-   }
+       location / {
+         include uwsgi_params;
+         uwsgi_pass http://backend;
+       }
 
    ...
    ```
@@ -433,6 +433,23 @@ Sometimes you want to configure an Nginx `server` which accessible internally on
 Review the [listen](https://nginx.org/en/docs/http/ngx_http_core_module.html#listen) directive and create a `server` that listens for requests originated from `127.0.0.1` only.
 Test that the server is accessible only internally.
 
+### :pencil2: CI/CD for the Nginx configuration files
+
+In this exercise, you will set up a CI/CD pipeline to automate the deployment of Nginx configuration files to your EC2 instance.
+The goal is to automatically update and reload Nginx whenever you make changes to its configuration files and push them to your repository.
+
+- Create a new GitHub repo named **NetflixInfra** and clone it locally. 
+  In your repository, create a folder named `nginx-config` and place your Nginx configuration files (`default.conf`, etc.) inside it.
+
+- Create a new workflow file under `.github/workflows/nginx-deploy.yaml` in your repository. 
+  
+  In the `nginx-deploy.yaml` file, write a GitHub Actions workflow that:
+     - Uses the SSH private key to connect to your EC2 instance.
+     - Transfers the updated Nginx configuration files from the `nginx-config` folder to the appropriate directory on your EC2 instance.
+     - Restarts the Nginx service on your EC2 instance to apply the changes.
+
+- Test the CI/CD Pipeline by making a small change to your Nginx configuration files, commit and push the changes to your repository.
+  Observe the GitHub Actions workflow being triggered and completing the deployment process.
 
 
 [webservers_proxy]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/webservers_proxy.png

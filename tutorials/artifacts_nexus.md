@@ -156,7 +156,7 @@ It's recommended placing hosted repositories higher in the list than proxy repos
 
 # Exercises 
 
-## :pencil2: Repository Health Check
+### :pencil2: Repository Health Check
 
 [Repository Health Check (RHC)](https://help.sonatype.com/repomanager3/nexus-repository-administration/repository-management/repository-health-check) allows Nexus Repository users to identify open source security risks in proxy repositories at the earliest stages of their DevOps pipeline.
 
@@ -220,23 +220,23 @@ pipeline {
 }
 ```
 
-## :pencil2: Artifact staging workflow
+### :pencil2: Artifact staging workflow
 
 ![][artifacts_nexus_staging]
 
 For more information https://help.sonatype.com/en/staging.html
 
-## :pencil2: Pipeline 
+### :pencil2: Pipeline 
 
 Create a Jenkins pipeline that downloads a Python package from your hosted repo and uploads it to PyPI. 
 
-## :pencil2: Nexus Docker repo  
+### :pencil2: Nexus Docker repo  
 
 1. In your Nexus server, create `Docker(proxy)`, `Docker(hosted)` and `Docker(group)` which contains the two repos (the proxy and hosted).
 2. From your local machine, pull an image from the created group repo.
 4. From your local machine, push an image into the hosted repo.
 
-## :pencil2: Policy to clean-up artifacts 
+### :pencil2: Policy to clean-up artifacts 
 
 If you are not cleaning out old and unused components, your repositories will grow quickly. Over time, this will present risks to your deployment:
 
@@ -253,7 +253,7 @@ Create two clean-up policies as follows:
 Create associate the `dev-cleanup` policy with one of your repositories.
 
 
-## :pencil2: Define s3 as an artifacts storage
+### :pencil2: Define s3 as an artifacts storage
 
 Follow:  
 

@@ -425,7 +425,7 @@ Date:   Mon Mar 17 21:52:11 2008 -0700
 
 ### :pencil2: Unmodifying a modified file 
 
-1. In your Git repo, modify some of the committed files. 
+1. In your Git repo, modify some of the committed files (without committing your modified files). 
 2. Now you realize that you don't want to keep your changes, how to revert it back to what it looked like when you last committed?
 3. Now modify some of the committed file and stage it. 
 4. How to unstage and revert it back to what it looked like when you last committed?
