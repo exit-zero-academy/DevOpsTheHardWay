@@ -20,7 +20,18 @@ Here you'll get real-world experience, work on outstanding projects as if you we
 
 [Getting started](#getting-started) •
 [Studying Guide](#studying-guide) •
-[Contact](#contact-us) 
+[Contribution and contact](#contribution) 
+
+## Sharing The Success
+
+![Community Engagement](https://img.shields.io/badge/Community_Engagement-123-blue) 
+![Total Projects Achieved](https://img.shields.io/badge/Projects_Completed-45-green) 
+![Course Alumni](https://img.shields.io/badge/Course_Alumni-10-yellow) 
+
+Meet the champions of our course! 👏
+Students who have recently completed another project in the course:
+
+![][]
 
 [//]: # (## Sharing The Success)
 
@@ -753,9 +764,11 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
 </table>
 
 
-## Contact Us
+## Contribution
 
-Looking for innovative DevOps training and skill enhancement? reach out to us.
+If you have ideas, improvements, or find any issues, feel free to open an issue or submit a pull request.
+
+Looking for innovative DevOps content and training?
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
