@@ -22,16 +22,6 @@ Here you'll get real-world experience, work on outstanding projects as if you we
 [Studying Guide](#studying-guide) •
 [Contribution and contact](#contribution) 
 
-## Sharing The Success
-
-![Community Engagement](https://img.shields.io/badge/Community_Engagement-123-blue) 
-![Total Projects Achieved](https://img.shields.io/badge/Projects_Completed-45-green) 
-![Course Alumni](https://img.shields.io/badge/Course_Alumni-10-yellow) 
-
-Meet the champions of our course! 👏
-Students who have recently completed another project in the course:
-
-![][]
 
 [//]: # (## Sharing The Success)
 
