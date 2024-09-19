@@ -215,7 +215,8 @@ location /poster/ {
 4. Try to serve some image by visit `http://<nginx-instance-ip>/poster/<some-image-path>`
 5. Try to serve some image that doesn't exist. What happened?
 
-In case something does not work as expected, you may try to find out the reason in `access.log` and `error.log` files in the directory `/usr/local/nginx/logs` or `/var/log/nginx`.
+> [!NOTE]
+> In case something does not work as expected, you may try to find out the reason in `access.log` and `error.log` files in the directory `/var/log/nginx`.
 
 Remember our promise that Nginx can do a lot for you? Let's see some examples...
 
@@ -295,7 +296,7 @@ Let's serve the Flask app behind a uWsgi server.
    
    ```bash
    python3 -m venv .venv
-   source ./.venv/vin/activate
+   source ./.venv/bin/activate
    pip install -r requirements.txt
    pip install uwsgi
    ```
@@ -392,7 +393,7 @@ If its value does not match any server name, or the request does not contain thi
    
        location / {
          include uwsgi_params;
-         uwsgi_pass http://backend;
+         uwsgi_pass backend;
        }
 
    ...

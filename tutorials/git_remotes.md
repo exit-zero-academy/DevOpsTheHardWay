@@ -83,13 +83,16 @@ git config --global credential.helper cache
 
 That way, **your credentials are never stored on disk**, and they are purged from the cache after 15 minutes.
 
-If you want to save the credentials on disk (**as a plain-text file**): 
+If you want to save the credentials on disk ([as a plain-text file](https://git-scm.com/docs/git-credential-store)): 
 
 ```bash
 git config --global credential.helper store
 ```
 
 That way credentials are **never expire**.
+
+> [!NOTE]
+> The above configurations are stored under `~/.gitconfig` file. This file includes user preferences, credential helpers [and more](https://git-scm.com/docs/git-config). 
 
 #### Option II: SSH
 

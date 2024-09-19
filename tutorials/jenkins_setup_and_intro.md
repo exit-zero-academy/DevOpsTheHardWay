@@ -238,22 +238,20 @@ echo "DOCKER_GROUP_ID=$(getent group docker | cut -d ':' -f 3)" >> .env
 
 Re-build your pipeline and make sure it was completed successfully.                                                                                                                                                                                                                                                                                                                                                        
 
-# Exercises 
+# Exercises
 
 ### :pencil2: Create GitHub credentials 
 
-[!NOTE]
-9. If you don't have yet credentials to GitHub, choose **Add** and create **Jenkins** credentials.
-   1. **Kind** must be **Username and password**
-   2. Choose informative **Username** (as **github** or something similar)
-   3. The **Password** should be a GitHub Personal Access Token with the following scope:
-      ```text
-      repo,read:user,user:email,write:repo_hook
-      ```
-      Click [here](https://github.com/settings/tokens/new?scopes=repo,read:user,user:email,write:repo_hook) to create a token with this scope.
-   4. Enter `github` as the credentials **ID**.
-   5. Click **Add**.
+Create credentials in Jenkins to allow you to authenticate with GitHub for accessing repositories and managing webhooks.
 
+1. **Kind** must be **Username and password**.
+2. Choose informative **Username** (as **github** or something similar)
+3. The **Password** should be a GitHub Personal Access Token with the following scope:
+   ```text
+   repo,read:user,user:email,write:repo_hook
+   ```
+   Click [here](https://github.com/settings/tokens/new?scopes=repo,read:user,user:email,write:repo_hook) to create a token with this scope.
+4. Enter `github` as the credentials **ID**.
 
 
 ### :pencil2: Custom log recorder

@@ -1,0 +1,5 @@
+nginx_listen_port: 8080
+server_name: localhost
+document_root: /usr/share/nginx
+poster_root: /usr/share/nginx/poster
+posters_data_url: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/netflix_movies_poster_img/images.tar.gz
