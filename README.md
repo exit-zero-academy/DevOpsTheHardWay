@@ -366,7 +366,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
  <td>IaC</td>
  <td><a href="tutorials/IaC_ansible.md">Ansible brief</a></td>
  <td align="center"></td>
- <td align="center"></td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/IaC_ansible.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
  <td align="center"><a href="tutorials/IaC_ansible.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
  <td align="center"></td>
 </tr>
@@ -452,7 +452,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
  <td align="center"></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/docker_compose.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
  <td align="center"><a href="tutorials/docker_compose.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
- <td align="center">The PolybotService: <a href="https://github.com/exit-zero-academy/PolybotServiceDocker">Docker project</a></td>
+ <td align="center"></td>
 </tr>
 
 <tr>
@@ -482,7 +482,7 @@ You are highly encouraged to complete the tutorials and projects by order, as ea
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_s3.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
  <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/aws_s3.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
  <td align="center"><a href="tutorials/aws_s3.md#exercises"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/pen.png" /></a></td>
- <td align="center"></td>
+ <td align="center">The PolybotService: <a href="https://github.com/exit-zero-academy/PolybotServiceDocker">Docker project</a></td>
 </tr>
 
 <tr>

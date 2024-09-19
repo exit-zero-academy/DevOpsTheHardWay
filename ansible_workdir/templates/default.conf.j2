@@ -1,0 +1,15 @@
+# /etc/nginx/conf.d/default.conf
+
+server {
+    listen {{ nginx_listen_port | default(80) }};
+    server_name {{ server_name }};
+
+    location / {
+        root  {{ document_root }}/html;
+        index  index.html index.htm;
+    }
+
+    location /poster/ {
+        root  {{ document_root }};
+    }
+}
