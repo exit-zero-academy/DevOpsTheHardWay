@@ -298,18 +298,19 @@ Answer the below question only by `cat` the content of files.
 
 Change directory to the `/proc` directory. 
 
-1. What CPU(s) is the system running on?
-2. How much RAM does it currently use?
-3. How much swap space do you have?
-4. What drivers are loaded?
-5. How many hours has the system been running?
-6. Which filesystems are known by your system?
+1. What CPU(s) is the system running on?![image](https://github.com/user-attachments/assets/36709b08-0dbe-49bb-a57b-0eb79e7b4dba)
+
+2. How much RAM does it currently use? cat /proc/meminfo
+3. How much swap space do you have? cat /proc/swaps
+4. What drivers are loaded? cat /proc/modules
+5. How many hours has the system been running? cat /proc/uptime
+6. Which filesystems are known by your system? cat /proc/filesystems
 
 Change to `/etc`.
 
-1. How long does the system keep the log file in which user logins are monitored?
-2. How many users are defined on your system? Don't count them, let the computer do it for you using wc!
-3. How many groups do you have?
-4. Which version of bash is installed on this system?
-5. Where is the time zone information kept?
+1. How long does the system keep the log file in which user logins are monitored? /etc/logrotate.conf
+2. How many users are defined on your system? Don't count them, let the computer do it for you using wc! wc -l /etc/passwd
+3. How many groups do you have? grep root /etc/group
+4. Which version of bash is installed on this system? bash --version
+5. Where is the time zone information kept? timedatectl
 
